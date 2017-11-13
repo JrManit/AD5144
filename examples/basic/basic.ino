@@ -35,7 +35,7 @@ void loop() {
   Serial.println(ret, DEC);   
 
   // read the current EEPROM1 value
-  int ret = digital_pot.read_data(AD5144_ADDR_RDAC1, AD5144_EEPROM);
+  ret = digital_pot.read_data(AD5144_ADDR_RDAC1, AD5144_EEPROM);
   Serial.print("Read EEPROM1 Value: ");
   Serial.println(ret, DEC);
    
@@ -45,7 +45,7 @@ void loop() {
     Serial.println("Error!");
   
   // read the new EEPROM1 value
-  int ret = digital_pot.read_data(AD5144_ADDR_RDAC1, AD5144_EEPROM);
+  ret = digital_pot.read_data(AD5144_ADDR_RDAC1, AD5144_EEPROM);
   Serial.print("Read EEPROM1 Value: ");
   Serial.println(ret, DEC);
 }
