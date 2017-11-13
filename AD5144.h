@@ -1,5 +1,5 @@
 /*
- * AD5272.h - Wrapper for I2C communication with AD5272
+ * AD5272.h - Wrapper for I2C communication with AD5144
  * 
  * Jirapong Manit
  *  November 2017
